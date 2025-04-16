@@ -35,7 +35,7 @@ export const Specific = ({ type }: SpecificProps) => {
       <FormRadio value={data.specific.key} label={data.specific.label} />
       <FormSelect
         {...register(data.specific.key)}
-        className="w-full"
+        className="w-[550px]"
         value={items}
         multiple
         onChange={(e: SelectChangeEvent<unknown>) => {

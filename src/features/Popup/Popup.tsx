@@ -19,6 +19,7 @@ const style = {
   boxShadow: 24,
   p: 4,
   width: "max-content",
+  maxWidth: "1250px",
 };
 
 interface PopupProps {
